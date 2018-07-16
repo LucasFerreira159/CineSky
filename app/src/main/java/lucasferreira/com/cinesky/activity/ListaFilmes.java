@@ -124,12 +124,6 @@ public class ListaFilmes extends AppCompatActivity {
     //Cria uma AsyncTask para recuperar dados da API
     private class RequisicaoFilmes extends AsyncTask<Void, String, String> {
 
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-        }
-
         @Override
         protected String doInBackground(Void... voids) {
             HttpClient httpClient = new DefaultHttpClient();
