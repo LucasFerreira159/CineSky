@@ -4,7 +4,7 @@ Plataforma: Android
 
 Versão: 1.0
 
-Aplicativo desenvolvido utilizando Async Task para consumir um simples serviço REST.
+Aplicativo desenvolvido utilizando OkHttp para consumir um simples serviço REST.
 
 ### Recursos de terceiros utilizados ###
 
